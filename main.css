@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-size: 14px;
+}
+
+.white-text {
+    color: white;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-paddinglr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.splash {
+    width: 100%;
+    height: auto;
+}
+
+.splash-text {
+    font-size: 80px;
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.grey-background {
+    background-color: grey;
+}
+
+.border {
+    border: 3px solid grey;
+}
+
+.bottom-border {
+    border-bottom: 3px solid lightgrey;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-img {
+    width: 175px;
+    height: 120px;
+}
+
+.left-align {
+    width: 50%;
+    align-self: flex-start;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: 1px solid grey;
+    width: 95px;
+    height: 30px;
+}
+
+.med-image {
+    width: 175px;
+    height: auto;
+}
